@@ -135,7 +135,7 @@ Nos basamos en el patrón AAA que vimos anteriormente y procedemos método a mé
 En la terminal, abrimos nuestro editor y copiamos el siguiente código en suite.test.js:
 
 ' 
-    const split = require('./test03-toString.js');                                               //L-1
+    const toString = require('./test03-toString.js');                                            //L-1
 
     test('toString(789) to equals "789" )', ()=>{                                                //L-3
     // Arrange
@@ -175,7 +175,7 @@ Cerramos el editor y volvemos a la terminal.
 En la terminal, abrimos nuestro editor y copiamos el siguiente código (abajo) en suite.test.js:
 
 ' 
-    const charAt = require('./test03-toFixed.js');                                              //L-1
+    const toFixed = require('./test03-toFixed.js');                                            //L-1
 
     test('toFixed(123456.52,5)  to equals 123456.52000 )', ()=>{                                //L-3
     // Arrang
