@@ -196,7 +196,7 @@ Estamos dando por hecho que nuestra función 'toFixed' necesita dos parámetro d
 Un primero parámetro donde va el número decimal. 
 Un segundo parámetro con el índice a obtener de los decimales.
 
-El resultado es la obtención de un número obteniendo el redonde limitando sus decimales.
+El resultado es la obtención de una string obteniendo el redondeo limitando sus decimales.
 
 A continuación describimos cada una de las líneas:
 
