@@ -28,7 +28,7 @@ usados.
 
 #### Jest - Framework Testing
 ```    
-Basándonos en la practica '2020-js-vanilla-testing-002' vamos a crear una nueva carpeta llamada '003-testing'.
+Basándonos en la practica '2020-js-vanilla-testing-003' vamos a crear una nueva carpeta llamada '003-testing'.
 En ella instalaremos 'Jest' con el comando que nos proporciona 'npm'.
 
 Crea una carpeta llamada '003-testing':
@@ -145,7 +145,7 @@ En la terminal, abrimos nuestro editor y copiamos el siguiente código en suite.
     var result = toString(789);                                                                  //L-8
     
     // Assert
-    expect(result).toStrictEqual(expected);                                                      //L-11
+    expect(result).toBe(expected);                                                               //L-11
     });                                                                                          //L-12
 
 '
@@ -177,16 +177,16 @@ En la terminal, abrimos nuestro editor y copiamos el siguiente código (abajo) e
 ' 
     const toFixed = require('./test03-toFixed.js');                                            //L-1
 
-    test('toFixed(123456.52,5)  to equals 123456.52000 )', ()=>{                                //L-3
+    test('toFixed(123456.52,5)  to equals "123456.52000" )', ()=>{                             //L-3
     // Arrang
-    var toBe =  123456.52000;                                                                   //L-5
+    var toBe =  "123456.52000";                                                                //L-5
 
     // Act
-    var result = toFixed(123456.52,5);                                                          //L-8
+    var result = toFixed(123456.52,5);                                                         //L-8
     
     // Assert
-    expect(result).toEqual(toBe);                                                               //L-11
-    });                                                                                         //L-12
+    expect(result).toBe(toBe);                                                                 //L-11
+    });                                                                                        //L-12
 
 '
 
@@ -242,7 +242,7 @@ Debemos de obtener la siguiente salida:
 Es muy importante saber qué nos quiere decir el interprete de JS con este fallo...
 Recordar que simplemente hemos diseñado y no hemos hecho implementación de nuestros algoritmos.
 
-El error recalca que hay algún fallo en el fichero './test02-toString.js'. 
+El error recalca que hay algún fallo en el fichero './test03-toString.js'. 
 Exactamente indica que no resuleve un método exportado..
 Obvio, no tenemos implementación.
 ```
@@ -252,7 +252,7 @@ Obvio, no tenemos implementación.
 Ahora vamos a desarrollar nuestro algoritmo toString:
 
 En la propia carpeta '003-testing' ejecutamos el siguiente comando:
-    $ touch test02-toString.js
+    $ touch test03-toString.js
 
 En este fichero vamos añadir una pequeña función que devuelvala conversión de un número 
 en una string
@@ -284,7 +284,7 @@ Debemos de obtener la siguiente salida:
 
         FAIL ./suite.test.js
           √ toString(789) to equals "789") (4ms)
-          × toFixed(123456.52,5)  to equals 123456.52000) (3ms)
+          × toFixed(123456.52,5)  to equals "123456.52000") (3ms)
                      ...
           
 Hemos pasado el test en Verde!
