@@ -1,7 +1,7 @@
 # 2020-js-vanilla-testing-003
 
 <p align="center">
-    <img src="https://github.com/GeeksHubsAcademy/hello-world/blob/master/assets/media/logo/logo.png" >	
+    <img src="https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/logo.png" >	
 </p>
 
 ## Temario
@@ -351,3 +351,23 @@ Revisa las referencias.
   * [Number.prototype](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Number/prototype)
   * [Desarrollo guiado por pruebas](https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas)
   * [Test Driven Development by JavaScript](https://softwarecrafters.io/javascript/tdd-test-driven-development)
+  
+  
+  
+  
+  
+<div>
+    <p align="center">
+        <img src="https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/pixel.png" >	
+    </p>
+  </div>
+  
+  <footer>
+     <div>
+        <a href="https://github.com/GeeksHubsAcademy/2020-js-vanilla-testing-002"><< Atrás</a>
+         <a href="https://github.com/GeeksHubsAcademy/2020-js-vanilla-testing-003/blob/master/README.md#referencias">
+        <img src="https://github.com/GeeksHubsAcademy/2020-geekshubs-media/blob/master/image/pixel.png" align="center"                  height="10" width="714"/>
+         </a>
+         <a href="https://github.com/GeeksHubsAcademy/2020-js-vanilla-testing-004">Siguiente >></a>   
+    </div>
+
