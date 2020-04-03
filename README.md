@@ -6,7 +6,7 @@
 
 ## Temario
 
-* [Testeando String.prototype](https://github.com/GeeksHubsAcademy/2020-js-vanilla-testing-003#testeando-stringprototype)
+* [Testeando Number.prototype](https://github.com/GeeksHubsAcademy/2020-js-vanilla-testing-003#testeando-stringprototype)
 * [Arquitectura del proyecto](https://github.com/GeeksHubsAcademy/2020-js-vanilla-testing-003#arquitectura-del-proyecto)
 * [Diseñando nuestros Tests](https://github.com/GeeksHubsAcademy/2020-js-vanilla-testing-003#dise%C3%B1ando-nuestros-tests)
     * [toString]()
@@ -17,7 +17,7 @@
 * [Conclusiones](https://github.com/GeeksHubsAcademy/2020-js-vanilla-testing-003#conclusiones)
 * [Referencias](https://github.com/GeeksHubsAcademy/2020-js-vanilla-testing-003#referencias)
 
-### Testeando String.prototype
+### Testeando Number.prototype
 ```
 Como se ha visto en la teoría, cualquier Number de JavaScript tiene unos métodos por defecto 
 que se pueden utilizar para hacer operaciones con ellos mismas. 
@@ -90,7 +90,7 @@ En la propia carpeta '003-testing' ejecutamos el siguiente comando:
 Dicho fichero va a permitir a 'Jest' ejecutar la bateria de Test que vamos a crear.
 Actualmente el fichero está vacío. Simplemente nos interesa tener una buena arquitectura de proyecto.
 
-Vamos a definir 5 tests que deben de hacer referencia a 5 funciones de String.prototypes.
+Vamos a definir 2 tests que deben de hacer referencia a 2 funciones de Number.prototypes.
 
 Al estar en una etapa temprana, vamos hacer las cosas de la manera más fácil posible.
 
